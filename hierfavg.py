@@ -20,6 +20,13 @@ NUM_UNIQUE_LABELS = 2  # 5G-NIDD has 2 classes according to binary classificatio
 NUM_FEATURES = 2  # Number of features extracted from the bert model, i.e., input_ids and attention_mask
 
 
+# Metrics for Evaluation
+COMMUNICATION_OVERHEAD = 0
+COMMUNICATION_ROUND_TO_CONVERGENCE = 0
+TRAINING_TIME = 0
+CPU/GPU_UTILIZATION = 0
+
+
 
 def set_initial_params(model: SGDClassifier) -> None:
     """Sets initial parameters as zeros Required since model params are not initialized
